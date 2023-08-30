@@ -4,6 +4,9 @@ import java.util.Stack;
 
 public class Function {
     public static boolean pakagic(String s) {
+
+        //myChange
+
         Stack<Character> stack = new Stack();
         char[] chars = s.toCharArray();
         for (int i = 0; i < chars.length; i++) {
